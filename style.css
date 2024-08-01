@@ -54,6 +54,9 @@ border-radius: 5px;
     margin-bottom: 48px;
 
 }
+main{
+    margin-bottom: 150px;
+}
 
 .main-section{
     padding: 80px 97px;
@@ -143,19 +146,300 @@ border-radius: 5px;
 .last-div2{
     gap: 32px;
 }
-/*main-section2 styles */
-.main-section2{
-    max-width: 1124px;
-    margin-bottom: 80px;
+
+/*main-section3 styles */
+.Current-target{
+    margin: 151px 150px 49px 150px;
+    width: 1140px;
+    height: 1437px;
+}
+
+.headline-title{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.headline-title>h3{
+    color: #0D1321;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: Azeret Mono;
+    width: 852px;
+    height: 37px;
+    margin-bottom: 24px;
+}
+.headline-title>p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Azeret Mono;
+    color: #0D1321;
+
+}
+.target-div{
+    margin-bottom: 111px;
+    display: flex;
+    justify-content: space-around;
+}
+.coding-div{
+    padding: 40px;
+    gap: 24px;
+}
+.coding-div>img{
+    margin-bottom: 24px;
+    width: 56px;
+    height: 56px;
+}
+.coding-div>h4{
+
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Azeret Mono;
+    height: 36px;
+    width: 284px;
+}
+.coding-div>p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Azeret Mono;
+    width: 284px;
+    height: 36px;
+    margin-bottom: 24px;
+
+}
+.coding-div>a{
+
+    font-size: 16px;
+    font-weight: bold ;
+    font-family: Azeret Mono;
+    width: 284px;
+    height: 19px;
+    margin-bottom: 24px;
+}
+.html-bg{
+    background-color: #fdcdc53f;
+}
+.css-bg{
+    background-color: #c2d5ff49;
+}
+.JavaScript-bg{
+    background-color: #8aa53a33;
+}
+/*next target styles */
+
+.react-js{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    gap: 24px;
+    background-color: #c2d5ff27 ;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.react-js>h4{
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Azeret Mono;
+    height: 36px;
+    width: 284px;
+
+}
+.react-js>p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Azeret Mono;
+    width: 284px;
+    height: 36px;
+    margin-bottom: 24px;
+
+}
+.react-js>a{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Azeret Mono;
+    width: 284px;
+    height: 19px;
+    margin-bottom: 24px;
+}
+.node-js{
+
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    gap: 24px;
+    background-color: rgba(0, 255, 255, 0.103);
+    border-radius: 16px;
+    margin-bottom: 24px;
+
+}
+.node-js>img{
+    width: 50px;
+    height: 30px;
+    padding: 50px;
+
+}
+.node-js>h4{
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Azeret Mono;
+    height: 36px;
+    width: 284px;
+
+}
+.node-js>p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Azeret Mono;
+    width: 284px;
+    height: 36px;
+    margin-bottom: 24p;
+
+}
+.node-js>a{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Azeret Mono;
+    width: 284px;
+    height: 19px;
+    margin-bottom: 24p;
+}
+.mongodb-js{
+
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 16px;
+    margin-top: 24px;
+    margin-bottom: 49px; 
+    background-color: #8aa53a15;
+
+}
+.mongodb-js>h4{
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Azeret Mono;
+    height: 36px;
+    width: 284p
+}
+.mongodb-js>p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Azeret Mono;
+    width: 284px;
+    height: 36px;
+    margin-bottom: 24p;
+
+}
+.mongodb-js>a{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Azeret Mono;
+    width: 284px;
+    height: 19px;
+    margin-bottom: 24p;
+}
+/*footer-section styles */
+.footer-section{
+    background-image: url(assets/handshake.jpg);
+    margin-top: 50px;
+
+    margin-right: 200px;
+    margin-left: 100px;
+    text-align: center;
+    padding: 50px 35px;
+    align-items: center;
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.footer-heading{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Azeret Mono;
+    margin-bottom: 50px;
+    color: #FFFFFF;
     text-align: center;
 
 }
-.video-div{
-    padding: 32px;
-    position: absolute;
-    border: 2px solid 10px;
-    border-radius: 5px;
+.footer-para{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: Azeret Mono;
 }
+.input-text{
+    border: none;
+    padding: 19px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    width: 353px;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    position: bottom center;
+
+
+}
+.input-text:hover{
+    background-color: #fdcdc5ef;
+}
+.submit{
+
+    border: none;
+    padding: 17px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    width: 150px;
+    height: 78px;
+    background-color: white;
+    align-items: center;
+    position: bottom center;
+    margin-left: 16px;
+
+}
+.submit:hover{
+    background-color: rgba(208, 255, 196, 0.74);
+    color: #0D1321;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 255, 0.027);
+    margin-top: 50px;
+        
+    margin-right: 8%;
+    margin-left: 5%;
+    text-align: center;
+    padding: 32px 150px;
+    align-items: center;
+    width: 950px;
+    height: 52px;
+    border-radius: 16px;
+
+}
+#facebook-img{
+    margin-right: 24px;
+}
+#linkedin-img{
+    margin-left: 24px;
+}
+
 
 
 
