@@ -146,6 +146,42 @@ main{
 .last-div2{
     gap: 32px;
 }
+/* video-section styles */
+.video-section{
+    margin-top: 90px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.video-title{
+    text-align: center;
+    font-size: 32;
+    font-weight: bolder;
+    font-family: Azeret Mono;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.video-para{
+    text-align: center;
+    font-size: 16;
+    font-weight: 400;
+    font-family: Azeret Mono;
+    color: #0D1321;
+    margin-bottom: 48px;
+}
+.video-play{
+    padding: 15px;
+    border-radius: 25px;
+    width: 1076px;
+    height: 550px;
+    text-decoration: 2px solid blue;
+}
+.video-play>video{
+    border-radius: 16px;
+    width: 1076px;
+    height: 550px;
+    text-decoration: 2px solid blue;
+}
 
 /*main-section3 styles */
 .Current-target{
